@@ -11,9 +11,9 @@ Here's the definitive solution, Brig Data represents a particular case of Lossy 
 specifically it is a Total Loss Compression.
 
 ### Usage
-
-./brig-data yourfile
-
+```bash
+$ ./brig-data yourfile
+```
 ### License
 
 This software is released under the AGPLv3 license. See LICENSE file for more information.
