@@ -5,7 +5,7 @@ if ls --version 2>/dev/null | grep -q 'coreutils'; then
 	$COMPRESS "$@" | sed --expression="s/removed/compressing/g"
 else
 	#we are BSD
-  $COMPRESS "$@" | while read line; do echo "compressing $line"; done
+  $COMPRESS "$@" | while read -r line; do echo "compressing $line"; done
 fi
 
 touch your-data.brig
