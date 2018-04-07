@@ -8,7 +8,7 @@ software engineers and data scientists.
 How to collect, how to analyze, how to exploit data to get added value for the business?
 
 Here's the definitive solution, Brig Data represents a particular case of Lossy Compression method,
-specifically it is a Total Loss Compression.
+specifically it is a Total Loss Compression method.
 
 ### Usage
 ```bash
