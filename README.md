@@ -14,6 +14,7 @@ specifically it is a Total Loss Compression method.
 ```bash
 $ chmod +x brig-data
 $ ./brig-data yourfile
+$ ./brig-data yourfolder
 ```
 ### License
 
