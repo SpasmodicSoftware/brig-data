@@ -20,4 +20,4 @@ $ ./brig-data yourfolder
 
 This software is released under the AGPLv3 license. See LICENSE file for more information.
 
-Copyright (c) 2018 - Spasmodic Software
+Copyright (c) 2018, 2019 - Spasmodic Software
