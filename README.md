@@ -22,7 +22,7 @@ $ ./brig-data --extract    --> extract data from BRIG-compressed file
 $ ./brig-data --help       --> show README.md
 ```
 
-###Disclaimer: 
+### Disclaimer: 
 Partial or total data loss might occasionally occurr depending on the nature of the input file or folder. 
 A full cycle of compression and decompression is advisable to test the algorithm before actually using it!
 
