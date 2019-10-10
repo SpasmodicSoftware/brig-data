@@ -23,9 +23,11 @@ elif [ "$INSTR" == "--help" ] || [ "$INSTR" == "-h" ] ; then
 elif ls --version 2>/dev/null | grep -q 'coreutils'; then
 	#We are GNU
 	$COMPRESS "$@" | sed --expression="s/removed/compressing/g"
+	touch your-data.brig
 else
 	#we are BSD
-  $COMPRESS "$@" | while read -r line; do echo "compressing $line"; done
+  	$COMPRESS "$@" | while read -r line; do echo "compressing $line"; doneù
+	touch your-data.brig
 fi
 
-touch your-data.brig
+
