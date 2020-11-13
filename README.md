@@ -29,4 +29,4 @@ A full cycle of compression and decompression is advisable to test the algorithm
 ### License
 This software is released under the AGPLv3 license. See LICENSE file for more information.
 
-Copyright (c) 2018, 2019 - Spasmodic Software
+Copyright (c) 2018 - 2020 by Spasmodic Software
